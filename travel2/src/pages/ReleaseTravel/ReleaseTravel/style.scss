@@ -1,0 +1,36 @@
+.releaseTravel{
+    .scroll{
+
+        box-sizing: border-box;
+        padding: 15px;
+        .newTravel{
+            height: 140px;
+            width: 100%;
+            // background: url(/img/newtravel.png);
+            // background-size: cover;
+            // background: #b61588;
+            border-radius: 10px;
+            color: #bbb;
+            text-align: center;
+            // line-height: 120px;
+            box-shadow: 0 0 15px #ddd;
+            .iconfont{
+                padding-top: 42px;
+                font-size: 30px;
+    
+            }
+            .newTravelText{
+                font-size: 15px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+            }
+        }
+        .myTravels{
+            box-shadow: 0 0 15px #ddd;
+            width: 100%;
+            border-radius: 10px;
+            min-height: 200px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    }
+}

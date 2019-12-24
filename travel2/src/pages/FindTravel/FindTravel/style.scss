@@ -1,0 +1,75 @@
+.findTravel{
+
+    background: #fff;
+    .swiper-container {
+        width: 94%;
+        height: 200px;
+        background: #fff;
+        box-sizing: border-box;
+        margin: 3%;
+        margin-top: 10px;
+        border-radius: 10px;   
+        box-shadow: 0 0 10px #ddd;
+        .swiper-wrapper{
+            height: 100%;
+            width: 100%;
+            
+            .swiper-slide{
+                height: 100%;
+                width: 100%;
+                img{
+                    height: 100%;
+                    width: 100%; 
+                }
+            }
+        } 
+    }   
+
+    .content-tab{
+        line-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 15px;
+        color: #555;
+        background: white;
+        // box-shadow: 0 0 5px #ddd;
+        .iconfont{
+            font-size: 16px;
+        }
+    }
+    .needYourIdea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        span{
+            font-size: 20px;
+            color: #555;
+            &.iconfont{
+                font-size: 60px;
+                padding: 0 10px;
+                background: linear-gradient(90deg,#4b166c, #ee2ab6);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+        }
+    }
+    .sendIdeaBox{
+        height: 40px;
+        text-align: center;
+        .sendIdea{
+            color: white;
+            background: linear-gradient(90deg,#4b166c, #ee2ab6);
+            padding: 5px 10px ;
+            font-size: 14px;
+            border-radius: 9px;
+        }
+    }
+}   
+
+hr{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    transform: scaleY(0.5);
+}

@@ -1,0 +1,52 @@
+.home{
+    box-sizing: border-box;
+    padding: 20px;
+    .ImgandName{
+        display: flex;
+        justify-content: space-between;
+        .imgbox{
+            height: 100px;
+            width: 100px;
+            box-shadow: 0 0 5px rgb(247, 0, 255);
+            border-radius: 10px;
+            overflow: hidden;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .name{
+            // background: red;
+            width: 250px;
+            h3{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+            input{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+    .myTravelBox{
+        height: 150px;
+        width: 100%;
+        box-shadow: 0 0 15px #ddd;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+        p{
+            font-size: 80px;
+            color:#999;
+        }
+        span{
+            color:#999;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    }
+
+}

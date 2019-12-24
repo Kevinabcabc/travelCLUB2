@@ -1,0 +1,36 @@
+.tabs{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 49px;
+    width: 100%;
+    background: linear-gradient(90deg,#ffffff, #e0e0e0);
+    display: flex;
+    justify-content: space-around;
+    
+    .tab{
+        color: #666;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        .iconfont{
+            font-size: 21px;
+        }
+        .text{
+            font-size: 12px;
+        }
+        &.active{
+            .text{
+                background: linear-gradient(90deg,#4b166c, #ee2ab6);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            .iconfont{
+                background: linear-gradient(90deg,#4b166c, #ee2ab6);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+        }
+    }
+}

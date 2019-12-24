@@ -1,0 +1,19 @@
+.tabs{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 49px;
+    width: 100%;
+    background: #fefefe;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    
+    .tab{
+
+        background: linear-gradient(90deg,#4b166c, #b61588);
+        -webkit-background-clip: text;
+        color: transparent;
+        line-height: 49px;
+    }
+}

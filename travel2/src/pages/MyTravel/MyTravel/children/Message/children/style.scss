@@ -1,0 +1,72 @@
+.messageItem{
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 0 10px #ddd;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    .imgbox{
+        height: 150px;
+        width: 210px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .info{
+        width: 192px;
+        .userInfo{
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .imgBoxWraper{
+                .imgBox{
+                    height: 40px;
+                    width: 40px;
+                    padding: 2px;
+                    margin-top: 15px;
+                    border-radius: 50%;
+                    background-image: linear-gradient(90deg,#ee2ab6 ,#4b166c );
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 50%;
+                        box-sizing: border-box;
+                    }
+                }
+                h3{
+                    text-align: center;
+                    margin-top: 3px;
+                }
+            }
+            span{
+                padding-right: 30px;
+                padding-top: 20px;
+            }
+                
+        }
+    }
+    p{
+        color: white;
+        margin-top: 20px;
+        width: 173px;
+        text-align: center;
+        line-height: 24px;
+        border-radius: 3px;
+        background: #d2d2d2;
+        margin-left: 0px;
+    }
+    .action{
+        padding: 6px 20px;
+        background-image: linear-gradient(90deg,#4b166c ,#ee2ab6 );
+        display: inline-block;
+        border-radius: 3px;
+        color: white;
+        margin-top: 10px;
+        &.reject{
+            margin-left: 45px;
+        }
+    }
+}

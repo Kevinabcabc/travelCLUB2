@@ -1,0 +1,22 @@
+.app-header{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        height: 100%;
+        display: inline-block;
+        img{
+            height: 80%;
+        }
+    }
+    .memu{
+        display: flex;
+        justify-content: flex-end;
+        .userImg{
+            
+           
+        }
+        .title{
+            padding-left: 30px;
+        }
+    }
+}

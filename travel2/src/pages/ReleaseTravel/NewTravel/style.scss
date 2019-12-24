@@ -1,0 +1,33 @@
+.newTravel{
+    // background: red;
+    .newTravelContent{
+
+        padding:20px;
+        box-sizing: border-box;
+        .imgLoaderBox{
+           margin:0 auto;
+           height: 200px;
+           width: 210px;
+        }
+        hr{
+            border: none;
+            height: 1px;
+            background: #eee;
+            transform: scaleY(0.5);
+        }
+        .newTravelSMT{
+            width: 90%;
+            box-sizing: border-box;
+            height: 40px;
+            border-radius: 2px;
+            position: absolute;
+            bottom: 40px;
+            background: red;
+            text-align: center;
+            color: white;
+            background-image: linear-gradient(90deg,#62238a, #b61588);
+            font-size: 16px;
+            line-height: 40px;
+        }
+    }
+}

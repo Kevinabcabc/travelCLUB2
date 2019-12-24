@@ -1,0 +1,25 @@
+.loading{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 101;
+    .imgBox{
+        height: 130px;
+        width: 150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -65px;
+        margin-left: -75px;
+        border-radius: 9px;
+        box-shadow: 0 0 10px #ddd;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            transform: scale(1.6);
+            position: relative;
+            left: 2%;
+        }
+    }
+}
